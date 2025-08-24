@@ -2,7 +2,6 @@ use anyhow::{Context, Result};
 use console::style;
 use indicatif::{ProgressBar, ProgressStyle};
 use std::process::{Command, Stdio};
-use std::io::{self, Write};
 use sysinfo::{System, SystemExt};
 use tokio::fs::File;
 use tokio::io::AsyncWriteExt;
